@@ -37,9 +37,10 @@ header {
 
 .flexDiv2 {
     display: flex;
-    width: 500px;
+    width: 600px;
     margin-left: 10%;
     margin-top: 5%;
+    margin-bottom: 50px;
 }
 
 .fontDiv {
@@ -52,7 +53,6 @@ header {
 h2 {
     color: white;
     font-size: 60px;
-    width: 400px;
     padding: 0;
 }
 
@@ -66,17 +66,18 @@ h2 {
     display: flex;
 }
 .imgDiv {
-    background-color: #E5E7EB;
-    height: 280px;
+    background-color: grey;
+    height: 230px;
     width: 500px;
-    margin-left: 10%;
-    margin-top: 5%;
+    margin-top: 7%;
+    margin-left: 10px;
+
 }
 
 .imgDiv h3{
     text-align: center;
     font-size: 18px;
-    margin-top: 25%;
+    margin-top: 20%;
 }
 
 .headerBtn {
@@ -86,10 +87,39 @@ h2 {
     border-radius: 10px;
     color:white;
     border: none;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .headerBtn:hover {
     background-color: white;
     color:#3882f6
+}
+
+.infoDivFlex {
+    display: flex;
+    justify-content: center;
+}
+.infoContainer {
+    width: 120px;
+    margin: 30px;
+}
+
+.infoContainer p {
+    font-size: 12px;
+}
+
+.infoBox {
+    border: 2px solid #3882f6;
+    width: 120px;
+    height:120px;
+    border-radius: 5px;
+}
+
+
+.randomText {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: .1rem;
+    margin-top: 10px;
 }
