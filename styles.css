@@ -34,3 +34,62 @@ header {
 .navBar .navItem a:hover {
     text-decoration: line-through 5px pink;
 }
+
+.flexDiv2 {
+    display: flex;
+    width: 500px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.fontDiv {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: flex-start;
+}
+
+h2 {
+    color: white;
+    font-size: 60px;
+    width: 400px;
+    padding: 0;
+}
+
+.flexDiv2 p {
+    color:lightgrey;
+    font-size: 18px;
+    width: 500px;
+}
+
+.imgFlex {
+    display: flex;
+}
+.imgDiv {
+    background-color: #E5E7EB;
+    height: 280px;
+    width: 500px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.imgDiv h3{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 25%;
+}
+
+.headerBtn {
+    background-color:#3882f6;
+    width: 90px;
+    padding: 10px;
+    border-radius: 10px;
+    color:white;
+    border: none;
+    margin: 10px;
+}
+
+.headerBtn:hover {
+    background-color: white;
+    color:#3882f6
+}
