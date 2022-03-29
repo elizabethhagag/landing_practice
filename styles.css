@@ -123,3 +123,18 @@ h2 {
     letter-spacing: .1rem;
     margin-top: 10px;
 }
+
+.quoteDiv {
+    height: 200px; 
+    width: auto;
+    padding: 5%;
+    background-color: #E5E7EB;
+}
+.quote {
+    text-align: center;
+    margin: auto;
+    width: 600px;
+    font-style: italic;
+    font-size: 35px;
+    color: #1F2937;
+}
