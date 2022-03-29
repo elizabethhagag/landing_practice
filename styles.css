@@ -1,0 +1,36 @@
+* {padding: 0; margin: 0;}
+
+header {
+    background-color: #1F2937;
+}
+
+.flexDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 48px;
+    font-weight: bolder;
+    letter-spacing: .45rem;
+    margin: 10px;
+}
+
+.navBar {
+    display: flex;
+    list-style: none;
+}
+
+.navBar .navItem a{
+    display: block;
+    padding: 1em;
+   font-size: 18px;
+   text-decoration: none;
+   color: #E5E7EB;
+}
+
+.navBar .navItem a:hover {
+    text-decoration: line-through 5px pink;
+}
